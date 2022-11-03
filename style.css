@@ -1,0 +1,36 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;   
+    overflow-x: hidden;
+}
+header{
+    height: 100px;
+    flex: 1 0 1200px;
+    background-color: orangered;
+   
+}
+section{
+    height: 450px;
+    flex: 1 0 250px;
+    background-color: blueviolet;
+    margin: 5px;
+}
+aside{
+    height: 450px;
+    flex: 1 0 250px;
+    background-color:chartreuse;
+    margin: 5px;
+}
+footer{
+    height: 150px;
+    flex: 1 0 1200px;
+    background-color:crimson;
+    margin: 5px;
+}
